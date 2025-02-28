@@ -7,24 +7,24 @@ Rental Process: Rent available cars to customers and calculate the total rental 
 Return Process: Return rented cars and update their availability status.
 User-Friendly Menu: Simple and intuitive console-based menu for interacting with the system.
 Classes and Their Responsibilities
-Car:
 
+Car:
 Attributes: carId, brand, model, basePricePerDay, isAvailable
 Methods: Constructor, getters, calculatePrice(), isAvailable(), rent(), returnCar()
-Customer:
 
+Customer:
 Attributes: customerId, name
 Methods: Constructor, getters
-Rental:
 
+Rental:
 Attributes: car, customer, days
 Methods: Constructor, getters
-CarRentalSystem:
 
+CarRentalSystem:
 Attributes: cars, customers, rentals
 Methods: addCar(), addCustomer(), rentCar(), returnCar(), menu()
-Main:
 
+Main:
 Initializes the CarRentalSystem and adds sample cars.
 Starts the menu-driven interaction with the user.
 How to Use
